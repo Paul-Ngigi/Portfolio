@@ -64,8 +64,8 @@ body{
 }
 #introduction img{
     float: right;
-    height: 650px;
-    margin-top: -32.45%;
+    height: 648px;
+    margin-top: -32.6%;
 }
 .social{
     background-color: skyblue;
@@ -82,7 +82,13 @@ body{
     font-size: 30px;
     margin-left: 50px;
 }
+.social a{
+    color: white;
+}
 .social a:hover{
-    color:white;
+    color:black;
 }
 /* Landing Page End */
+#about{
+    height: 100vh;
+}
