@@ -7,12 +7,14 @@
     text-decoration: none;
 }
 body{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 /* Landing Page */
 #landing-page{
     height: 100vh;
+    background-color: white;
+    color: black;
 }
 /* Navigation */
 .navbar{
@@ -67,30 +69,118 @@ body{
     height: 648px;
     margin-top: -32.6%;
 }
-.social{
+.languages{
     background-color: skyblue;
     width: 100%;
     padding: 25px;
     margin-top: 8.5%;
 }
-.social ul{
+.languages ul{
     list-style: none;
     display: flex;
+    margin-left: 40%;
 }
-.social li{
-    padding-top: -1000px;
-    font-size: 30px;
-    margin-left: 50px;
-}
-.social a{
+.languages li{
+    font-size: 35px;
+    margin-left: 25px;
     color: white;
 }
-.social a:hover{
-    color:black;
+.languages .html:hover{
+    color: chocolate;
+}
+.languages .css:hover{
+    color: dodgerblue;
+}
+.languages .bootstrap:hover{
+    color: blue;
+}
+.languages .javascript:hover{
+    color: yellow;
+}
+.languages .python:hover{
+    color: cornflowerblue;
 }
 /* Landing Page End */
 #about{
     height: 100vh;
-    background-color: black;
+    font-family: 'Poppins', sans-serif;
     color: white;
+    background: rgb(0,36,32);
+    background: rgb(192,229,248);
+    background: linear-gradient(103deg, rgba(192,229,248,1) 0%, rgba(0,0,0,1) 0%);
 }
+.about-me{
+    padding-top: 5%;
+}
+.about-me h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: 900;
+    text-decoration: underline;
+}
+.education{
+    float: left;
+    margin-left: 2%;
+    line-height: 4rem;
+    font-size: 18px;
+}
+.education h2{
+    text-decoration: underline;
+    color: springgreen;
+}
+.education .education-facility{
+    color: orangered;
+}
+.hobbies{
+    float: right;
+    margin-right: 2%;
+    line-height: 3rem;
+    font-size: 20px;
+}
+.hobbies h2{
+    text-decoration: underline;
+    color: springgreen;
+}
+.hobbies li{
+    list-style-type: circle;
+}
+.hobbies .basketball i{
+    color: chocolate;
+}
+.hobbies .skate i{
+    color: deeppink;
+}
+.hobbies .ps i{
+    color: blue;
+}
+.hobbies .trips i{
+    color: gold;
+}
+/* Scrolls */
+.scroll{
+    margin-top: 25%;
+}
+.scroll ul{
+    list-style: none;
+}
+.scroll-down{
+    text-align: center;
+    font-size: 60px;
+}
+.scroll-down a:link, a:visited{
+    color: orange;
+}
+.scroll-down a:hover, a:active{
+    color: skyblue;
+}
+.scroll-up{
+    text-align: center;
+    font-size: 60px;
+}
+.scroll-up a:link, a:visited{
+    color: orange;
+}
+.scroll-up a:hover, a:active{
+    color: skyblue;
+}
+/* Scrolls End */
