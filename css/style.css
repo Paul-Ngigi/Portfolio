@@ -7,9 +7,10 @@
     text-decoration: none;
 }
 body{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
+/* Landing Page */
 #landing-page{
     height: 100vh;
 }
@@ -18,7 +19,7 @@ body{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
     background-color: skyblue;
-    padding: 20px;
+    padding: 25px;
 }
 .navbar ul{
     display: flex;
@@ -63,9 +64,25 @@ body{
 }
 #introduction img{
     float: right;
-    height: 710px;
-    margin-top: -32.5%;
+    height: 650px;
+    margin-top: -32.6%;
 }
-#about{
-    height: 100vh;
+.social{
+    background-color: skyblue;
+    width: 100%;
+    padding: 25px;
+    margin-top: 8.5%;
 }
+.social ul{
+    list-style: none;
+    display: flex;
+}
+.social li{
+    padding-top: -1000px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.social a:hover{
+    color:white;
+}
+/* Landing Page End */
