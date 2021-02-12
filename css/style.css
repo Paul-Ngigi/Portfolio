@@ -91,4 +91,6 @@ body{
 /* Landing Page End */
 #about{
     height: 100vh;
+    background-color: black;
+    color: white;
 }
