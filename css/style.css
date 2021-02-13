@@ -37,7 +37,6 @@ body{
 .navbar .nav-link:hover{
     color: black;
 }
-
 /* Brief Introduction */
 #introduction{
     margin-top: 8%;
@@ -101,6 +100,8 @@ body{
     color: cornflowerblue;
 }
 /* Landing Page End */
+
+/* About Page */
 #about{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -185,3 +186,40 @@ body{
     color: skyblue;
 }
 /* Scrolls End */
+/* About Page End */
+
+
+/* Projects Page */
+#projects{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 3rem;
+    background: rgb(0,36,32);
+    background: rgb(192,229,248);
+    background: linear-gradient(103deg, rgba(192,229,248,1) 0%, rgba(0,0,0,1) 0%);
+}
+.projects h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: 900;
+    text-decoration: underline;
+    color: pink;
+    padding: 23px;
+}
+.images img{
+    height: 400px;
+    width: 400;
+}
+.chale{
+    float: right;
+    margin-right: 2%;
+}
+.pets{
+    float: left;
+    margin-left: 2%;
+}
+#project-scrolls {
+    margin-top: 35%;
+}
+/* Projects End */
