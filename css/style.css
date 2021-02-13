@@ -213,10 +213,18 @@ body{
 .chale{
     float: right;
     margin-right: 2%;
+    border: 2px solid brown;
+    border-radius: 2%;
+    padding: 12px;
+    background-color: chartreuse;
 }
 .pets{
     float: left;
     margin-left: 2%;
+    border: 2px solid brown;
+    border-radius: 2%;
+    padding: 12px;
+    background-color: chartreuse;
 }
 #project-scrolls {
     margin-top: 35%;
@@ -240,7 +248,7 @@ background: linear-gradient(103deg, rgba(192,229,248,1) 0%, rgba(0,0,0,0.4430147
     font-family: 'Ubuntu', sans-serif;
     background-color: white;
 }
-form{
+.contact{
     margin-top: 3%;
 }
 .contact h1{
@@ -271,4 +279,31 @@ form{
 .contact button:hover{
     background-color: turquoise;
     color: black;
+}
+.footer{
+    background: rgb(248,192,247);
+    background: linear-gradient(103deg, rgba(248,192,247,1) 19%, rgba(0,0,0,1) 87%);
+    margin-top: 10.5%;
+    padding: 12px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    margin-left: 40%;
+}
+.footer li{
+    padding-left: 27px;
+    font-size: 36px;
+}
+.footer .github:hover{
+    color: black;
+}
+.footer .twitter:hover{
+    color: deepskyblue;
+}
+.footer .linked-in:hover{
+    color: blue;
+}
+.footer .instagram:hover{
+    color: chocolate;
 }
