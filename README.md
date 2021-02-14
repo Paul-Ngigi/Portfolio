@@ -1,5 +1,5 @@
-# Paul Ngigi
-#### Portfolio, 15/02/2021
+# Portfolio
+#### 15/02/2021
 #### By **Paul Ngigi**
 ## Description
 This is a personal portfolio website containing information about me in general, my hobbies and a list of my projects
